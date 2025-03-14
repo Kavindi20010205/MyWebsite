@@ -1,27 +1,4 @@
 
-/*#header{*/
-/*    position: sticky;*/
-/*    background-color: #A47DAC;*/
-/*    height: 8vh;*/
-/*    top: 0;*/
-/*    padding: 10px 20px;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-
-
-/*!*          MAIN        *!*/
-/*body>main{*/
-/*    position: absolute;*/
-/*}*/
-/*#home{*/
-/*    height: 92vh;*/
-/*    width: 100vw;*/
-/*    background-color: deeppink;*/
-/*    position: relative;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*}*/
 /*#homeLogo{*/
 /*    height: 80vh;*/
 /*    width: fit-content;*/
@@ -93,24 +70,6 @@
 /*}*/
 
 
-/*!*           Footer        *!*/
-
-/*#footer{*/
-/*    background-color: purple;*/
-/*    position: relative;*/
-/*    height: 10vh;*/
-/*    width: 100%;*/
-/*    bottom: 0;*/
-/*}*/
-/*#footerDescrip{*/
-/*    width: fit-content;*/
-/*    position: absolute;*/
-/*    align-self: center;*/
-/*    align-items: center;*/
-/*    color: white;*/
-/*}*/
-
-
 /*      Header      */
 #Header{
     position: fixed;
@@ -119,7 +78,7 @@
     background-color: #8B5FB1;
     box-sizing: border-box;
     border: 10px solid #2E0042;
-    z-index: 1;
+    z-index: 2;
     justify-content: space-between;
 }
 #logo {
@@ -178,22 +137,86 @@ body>main{
     height: 100vh;
     width: 100%;
 }
+
+
+/*      Home        */
 .MainSections:first-child{
     background-color: #2E0042;
+    top: 10vh;
 }
+
+
+/*      Left Side   */
+#descrip{
+    background-color: #2E0042;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    left: 15vw;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+    padding: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+#descrip>h1{
+    color: #F1A7D3 ;
+}
+#descrip>div{
+    height: 5px;
+    background-color: white;
+}
+#descrip>p{
+    color: deeppink;
+}
+
+/*      Right Side   */
+#homeLogo{
+    top: 10vh;
+    height: 70vh;
+    width: fit-content;
+    right: 8vw;
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid #9D53A5;
+}
+
+@media (max-width: 768px) {
+    #homeLogo{
+        filter: blur(5px);
+    }
+}
+
+
+/*      Projects        */
 .MainSections:nth-child(2){
     height: 200vh;
     background-color: #9D53A5;
 }
+
+
+/*      Assignmrent        */
 .MainSections:nth-child(3){
     background-color: #2E0042;
 }
+
+
+/*      About        */
 .MainSections:nth-child(4){
     background-color: #F1A7D3;
 }
+
+
+/*      Skill        */
 .MainSections:nth-child(5){
     background-color: #3C1E60;
 }
+
+
+/*      Contact        */
 .MainSections:nth-child(6){
     background-color: #9D53A5;
 }
