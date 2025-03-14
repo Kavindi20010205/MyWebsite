@@ -1,15 +1,135 @@
 
-#header{
-    position: sticky;
-    background-color: #A47DAC;
-    height: 8vh;
-    top: 0;
-    padding: 10px 20px;
+/*#header{*/
+/*    position: sticky;*/
+/*    background-color: #A47DAC;*/
+/*    height: 8vh;*/
+/*    top: 0;*/
+/*    padding: 10px 20px;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+
+
+/*!*          MAIN        *!*/
+/*body>main{*/
+/*    position: absolute;*/
+/*}*/
+/*#home{*/
+/*    height: 92vh;*/
+/*    width: 100vw;*/
+/*    background-color: deeppink;*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
+/*#homeLogo{*/
+/*    height: 80vh;*/
+/*    width: fit-content;*/
+/*    position: absolute;*/
+/*    border: 10px;*/
+/*    right: 50px;*/
+/*}*/
+/*#descrip{*/
+/*    position: absolute;*/
+/*    background-color: white;*/
+/*    width: 200px;*/
+/*    text-align: center;*/
+
+/*    padding: 10px;*/
+/*    margin: 10px;*/
+/*    box-shadow: 10px 10px 10px 10px purple;*/
+/*}*/
+
+/*!*           Projects        *!*/
+/*#projects{*/
+/*    background-color: red;*/
+/*    height: 200vh;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*}*/
+
+
+/*!*           Assigrnment        *!*/
+
+/*#assignments{*/
+/*    background-color: darkblue;*/
+/*    height: 100vh;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    left: 0;*/
+
+/*}*/
+
+/*!*           About        *!*/
+
+/*#about{*/
+/*    background-color: yellow;*/
+/*    height: 100vh;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*}*/
+
+
+/*!*           Skill        *!*/
+/*#skill{*/
+/*    background-color: green;*/
+/*    height: 100vh;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*}*/
+
+
+
+/*!*           Contact        *!*/
+/*#contact{*/
+/*    background-color: orange;*/
+/*    height: 100vh;*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*}*/
+
+
+/*!*           Footer        *!*/
+
+/*#footer{*/
+/*    background-color: purple;*/
+/*    position: relative;*/
+/*    height: 10vh;*/
+/*    width: 100%;*/
+/*    bottom: 0;*/
+/*}*/
+/*#footerDescrip{*/
+/*    width: fit-content;*/
+/*    position: absolute;*/
+/*    align-self: center;*/
+/*    align-items: center;*/
+/*    color: white;*/
+/*}*/
+/*#footerDescrip>h6>p{*/
+/*    display: inline;*/
+/*}*/
+/*#footerDescrip>h6{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*      Header      */
+#Header{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: #8B5FB1;
+    box-sizing: border-box;
+    border: 10px solid #2E0042;
+    z-index: 1;
     justify-content: space-between;
 }
-
 #logo {
-    height: 70px;
+    height: 50px;
     width: fit-content;
     position: absolute;
     top: 0;
@@ -54,110 +174,49 @@
         font-size: 16px;
     }
 }
-
-/*          MAIN        */
+/*      Main    */
 body>main{
-    position: absolute;
-}
-#home{
-    height: 92vh;
-    width: 100vw;
-    background-color: deeppink;
     position: relative;
-    top: 0;
-    left: 0;
 }
-#homeLogo{
-    height: 80vh;
-    width: fit-content;
-    position: absolute;
-    border: 10px;
-    right: 50px;
-}
-#descrip{
-    position: absolute;
-    background-color: white;
-    width: 200px;
-    text-align: center;
-
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 10px 10px 10px 10px purple;
-}
-
-/*           Projects        */
-#projects{
-    background-color: red;
-    height: 200vh;
+.MainSections{
     position: relative;
-    right: 0;
-    left: 0;
-}
-
-
-/*           Assigrnment        */
-
-#assignments{
-    background-color: darkblue;
     height: 100vh;
-    position: relative;
-    right: 0;
-    left: 0;
-
-}
-
-/*           About        */
-
-#about{
-    background-color: yellow;
-    height: 100vh;
-    position: relative;
-    right: 0;
-    left: 0;
-}
-
-
-/*           Skill        */
-#skill{
-    background-color: green;
-    height: 100vh;
-    position: relative;
-    right: 0;
-    left: 0;
-}
-
-
-
-/*           Contact        */
-#contact{
-    background-color: orange;
-    height: 100vh;
-    position: relative;
-    right: 0;
-    left: 0;
-}
-
-
-/*           Footer        */
-
-#footer{
-    background-color: purple;
-    position: relative;
-    height: 10vh;
     width: 100%;
-    bottom: 0;
 }
-#footerDescrip{
-    width: fit-content;
+.MainSections:first-child{
+    background-color: #2E0042;
+}
+.MainSections:nth-child(2){
+    height: 200vh;
+    background-color: #9D53A5;
+}
+.MainSections:nth-child(3){
+    background-color: #2E0042;
+}
+.MainSections:nth-child(4){
+    background-color: #F1A7D3;
+}
+.MainSections:nth-child(5){
+    background-color: #3C1E60;
+}
+.MainSections:nth-child(6){
+    background-color: #9D53A5;
+}
+
+#Footer{
+    background-color: #D6A9F6;
+    height: 5vh;
+    width: 100%;
     position: absolute;
-    align-self: center;
-    align-items: center;
-    color: white;
 }
-#footerDescrip>h6>p{
-    display: inline;
-}
-#footerDescrip>h6{
-    display: flex;
-    justify-content: space-between;
+#aaaa>div{
+    background-color: #4B1D5C;
+    background-color: #8B5FB1;
+    background-color: #D6A9F6;
+    background-color: #F1A7D3;
+    background-color: #3C1E60;
+    background-color: #9D53A5;
+    background-color: #2E0042;
+    background-color: #E1B1D6;
+    background-color: #F2E2F7;
 }
