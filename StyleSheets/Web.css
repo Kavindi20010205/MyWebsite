@@ -150,13 +150,15 @@ body>main{
 #descrip{
     background-color: #2E0042;
     justify-content: center;
-    width: 200px;
+    width: 250px;
     height: 200px;
     position: relative;
     top: 150px;
     left: 15vw;
     text-align: center;
     align-items: center;
+    border-radius: 20px;
+    border: 1px solid #9D53A5;
     z-index: 1;
     padding: 10px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -166,7 +168,7 @@ body>main{
     color: #F1A7D3 ;
 }
 #descrip>div{
-    height: 5px;
+    height: 2px;
     background-color: white;
 }
 #descrip>p{
@@ -181,7 +183,7 @@ body>main{
     right: 8vw;
     position: absolute;
     box-sizing: border-box;
-    border: 5px solid #9D53A5;
+    border: 1px solid white;
 }
 
 @media (max-width: 768px) {
