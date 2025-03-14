@@ -109,13 +109,7 @@
 /*    align-items: center;*/
 /*    color: white;*/
 /*}*/
-/*#footerDescrip>h6>p{*/
-/*    display: inline;*/
-/*}*/
-/*#footerDescrip>h6{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
+
 
 /*      Header      */
 #Header{
@@ -204,12 +198,23 @@ body>main{
     background-color: #9D53A5;
 }
 
+
+/*      Footer      */
 #Footer{
     background-color: #D6A9F6;
     height: 5vh;
     width: 100%;
     position: absolute;
 }
+
+#Footer>h6>p{
+    display: inline;
+}
+#Footer>h6{
+    display: flex;
+    justify-content: space-around;
+}
+
 #aaaa>div{
     background-color: #4B1D5C;
     background-color: #8B5FB1;
