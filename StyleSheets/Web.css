@@ -341,7 +341,7 @@ body>main{
     height: 5vh;
     margin: 20px;
     border: 2px solid #2E0042;
-    border-radius: 0 50% 0 50% ;
+    /*border-radius: 50% 0;*/
     transition-timing-function: ease;
     transition-duration: 500ms;
     background-color: #F2E2F7;
@@ -355,7 +355,8 @@ body>main{
     color: black;
 }
 #assignmetLinks>div>a:hover{
-    color: #2E0042;
+    /*color: #2E0042;*/
+    color: white;
 }
 
 
