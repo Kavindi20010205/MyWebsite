@@ -341,14 +341,17 @@ body>main{
     height: 5vh;
     margin: 20px;
     border: 2px solid #2E0042;
-    /*border-radius: 50% 0;*/
+    /*border-radius: 10% ;*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     transition-timing-function: ease;
-    transition-duration: 500ms;
+    transition-duration: 800ms;
     background-color: #F2E2F7;
 }
 #assignmetLinks>div:hover{
-    background-color: deeppink;
-    color: mediumpurple;
+    background-color: hotpink;
 }
 #assignmetLinks>div>a{
     text-decoration: none;
