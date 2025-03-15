@@ -369,6 +369,82 @@ body>main{
 .MainSections:nth-child(4){
     background-color: #F1A7D3;
 }
+#About>div{
+    position: absolute;
+}
+#About>div:first-child{
+    position: relative;
+    height: 20vh;
+}
+#About>div:nth-child(2){
+    position: relative;
+    height: 80vh;
+}
+#About>div:nth-child(2)>div:first-child{
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+#About>div:nth-child(2)>div:nth-child(2){
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#aboutTitle>span{
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #2E0042;
+    background-color: #8B5FB1;
+    text-align: center;
+    font-size: 40px;
+    height:fit-content ;
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#aboutDescrip{
+    position: absolute;
+    width: 30vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50vh;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#aboutDescrip>p{
+    margin: 10px;
+}
+#aboutImag{
+    position: absolute;
+    height: 10vh;
+    aspect-ratio: 1/1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50vh;
+    background-color: purple;
+    border-radius: 100%;
+
+}
+
+
+
 
 
 /*      Skill        */
