@@ -462,6 +462,25 @@ body>main{
     background-color: #9D53A5;
 }
 
+#Contact>div{
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+#Contact>div:first-child{
+    position: relative;
+    background-color: red;
+}
+#Contact>div:nth-child(2){
+    position: absolute;
+    background-color: yellow;
+    top: 0  ;
+    right: 0;
+}
+
+
+
+
 
 /*      Footer      */
 #Footer{
