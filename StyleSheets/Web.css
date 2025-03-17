@@ -161,8 +161,8 @@ body>main{
     border: 1px solid #9D53A5;
     z-index: 1;
     padding: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-
+    /*box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;*/
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 #descrip>h1{
     color: #F1A7D3 ;
@@ -349,6 +349,9 @@ body>main{
     transition-timing-function: ease;
     transition-duration: 800ms;
     background-color: #F2E2F7;
+    /*display: flex;*/
+    /*align-items: center;*/
+
 }
 #assignmetLinks>div:hover{
     background-color: hotpink;
@@ -362,7 +365,9 @@ body>main{
     color: white;
 }
 
+.assignmentModule{
 
+}
 
 
 /*      About        */
@@ -395,7 +400,10 @@ body>main{
     top: 0;
     bottom: 0;
 }
-
+#aboutTitle{
+    background-color: #F2E2F7;
+    height: 200px;
+}
 #aboutTitle>span{
     font-optical-sizing: auto;
     font-style: normal;
@@ -421,7 +429,7 @@ body>main{
     left: 0;
     right: 0;
     margin: auto;
-    height: 50vh;
+    height: fit-content;
     background-color: white;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
@@ -494,8 +502,10 @@ body>main{
     display: inline;
 }
 #Footer>h6{
+    margin: 0;
     display: flex;
     justify-content: space-around;
+    color: darkslategrey;
 }
 
 #aaaa>div{
