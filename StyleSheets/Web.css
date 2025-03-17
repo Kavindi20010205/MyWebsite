@@ -479,6 +479,7 @@ body>main{
     position: relative;
     background-color: red;
 }
+
 #Contact>div:nth-child(2){
     position: absolute;
     background-color: yellow;
