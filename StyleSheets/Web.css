@@ -475,18 +475,98 @@ body>main{
     height: 100vh;
     width: 50vw;
 }
+
+
+
+/*      LEFT Side       */
 #Contact>div:first-child{
     position: relative;
     background-color: red;
 }
+#emailBox{
+    position: absolute;
+    height: 85vh;
+    width: 40vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: darkblue;
+}
+#emailBox>div{
+    position: relative;
+    display: flex;
+    align-content: center;
+}
 
+
+#emailBox>div:first-child{
+    background-color: #F2E2F7;
+    height: 10vh;
+}
+#emailBox>div:nth-child(2){
+    background-color: #8B5FB1;
+    height: 20vh;
+}
+#emailBox>div:nth-child(3){
+    background-color: #F1A7D3;
+    height: 48vh;
+}
+#emailBox>div:nth-child(4){
+    background-color: brown;
+    height: 7vh;
+}
+
+.EmailText{
+    border-radius: 5px;
+    margin: 2vh;
+    width: 38vw;
+    background-color: wheat;
+    z-index: 1;
+
+    font-family: "Noto NotoSans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: darkslategrey;
+    font-size: 3vh;
+}
+#EmailSendButton{
+    background-color: #3C1E60;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 5vh;
+    width: 5vw;
+    border: 2px solid #2E0042;
+    border-radius: 20px;
+
+    font-family: "Noto NotoSans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+
+
+}
+#EmailSendButton:hover{
+    background-color: deeppink;
+}
+
+
+
+/*      RIGHT Side      */
 #Contact>div:nth-child(2){
     position: absolute;
     background-color: yellow;
     top: 0  ;
     right: 0;
 }
-
 
 
 
