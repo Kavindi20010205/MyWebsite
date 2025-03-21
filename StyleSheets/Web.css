@@ -481,7 +481,6 @@ body>main{
 /*      LEFT Side       */
 #Contact>div:first-child{
     position: relative;
-    background-color: red;
 }
 #emailBox{
     position: absolute;
@@ -498,23 +497,20 @@ body>main{
     position: relative;
     display: flex;
     align-content: center;
+    background-color: lightgrey;
 }
 
 
 #emailBox>div:first-child{
-    background-color: #F2E2F7;
     height: 10vh;
 }
 #emailBox>div:nth-child(2){
-    background-color: #8B5FB1;
     height: 20vh;
 }
 #emailBox>div:nth-child(3){
-    background-color: #F1A7D3;
     height: 48vh;
 }
 #emailBox>div:nth-child(4){
-    background-color: brown;
     height: 7vh;
 }
 
@@ -522,7 +518,7 @@ body>main{
     border-radius: 5px;
     margin: 2vh;
     width: 38vw;
-    background-color: wheat;
+    background-color: #F2E2F7;
     z-index: 1;
 
     font-family: "Noto NotoSans KR", sans-serif;
