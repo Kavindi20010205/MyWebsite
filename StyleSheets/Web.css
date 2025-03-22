@@ -547,23 +547,154 @@ body>main{
     text-align: center;
     color: white;
     font-size: 2vh;
-
-
 }
+
 #EmailSendButton:hover{
     background-color: deeppink;
 }
 
 
-
 /*      RIGHT Side      */
 #Contact>div:nth-child(2){
     position: absolute;
-    background-color: yellow;
     top: 0  ;
     right: 0;
 }
+#contactRigth{
+    position: absolute;
+    height: 85vh;
+    width: 45vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#contactRigth>div{
+    position: absolute;
+    width: 45vw;
+}
+#contactRigth>div:first-child{
+    height: 20vh;
+    top: 0;
+}
+#contactRigth>div:nth-child(2){
+    height: 5vh;
+    top: 20vh;
+}
+#contactRigth>div:nth-child(3){
+    height: 15vh;
+    top: 25vh;
+}
+#contactRigth>div:nth-child(4){
+    height: 20vh;
+    top: 40vh;
+}
+#contactRigth>div:nth-child(5){
+    height: 5vh;
+    top: 60vh;
+}
+#contactRigth>div:nth-child(6){
+    height: 20vh;
+    top: 65vh;
+}
+#contactTiltle>span{
+    height: 5vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 
+    font-family: "Noto NotoSans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+}
+#descripContact>p{
+    height: fit-content;
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    background-color: #D6A9F6;
+}
+#linksContact{
+    display: flex;
+    justify-content: space-around;
+}
+#linksContact>div{
+    height: 50px;
+    aspect-ratio: 1/1;
+    background-color: grey;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: relative;
+}
+.linkContctImage{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#contactNumb{
+    display: block;
+}
+.contctNumberDesc{
+    position: relative;
+    height: 8vh;
+    width: 43vw;
+    margin: 2vh;
+}
+#contactNumb>div>div:first-child{
+    height: 30px;
+    aspect-ratio: 1/1;
+    background-color: grey;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: relative;
+    left: 50px;
+}
+#contactNumb>div>div:nth-child(2){
+    height: 30px;
+    width: 300px;
+    background-color: #D6A9F6;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#contactNumb>div>div:nth-child(2)>p{
+    margin: 0;
+    font-size: 2vh;
+
+}
+
+.line>div{
+    height: 2px;
+    width: 30vw;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 
 
