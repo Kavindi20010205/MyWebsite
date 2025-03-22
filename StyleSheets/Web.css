@@ -197,27 +197,6 @@ body>main{
     height: 200vh;
     background-color: #9D53A5;
 }
-#Projects{
-    position: relative;
-}
-#Projects>div{
-    position: relative;
-    top: 10vh;
-    display: grid;
-    width: 50vw;
-    height: 80vh;
-    grid-template-columns: repeat(2, 1fr);
-}
-#Projects>div>div{
-    position: relative;
-    height: fit-content;
-}
-#Projects>div:first-child{
-    grid-column: 1/2;
-}
-#Projects>div:nth-child(2){
-    grid-column: 2/3;
-}
 #projectTitle{
     color: #F1A7D3;
     text-align: center;
@@ -226,31 +205,54 @@ body>main{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 
 }
-#Projects>div:hover{
-    background-color: mediumpurple;
-}
-.projectsOImage{
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 30vh;
-    width: 20vw;
-}
-.projectsNames{
-    position: relative;
-    background-color: #2E0042;
-    text-align: center;
-    color: #F1A7D3;
-}
-.projectsDetails{
-    position: relative;
-    top: 80vh;
-    left: 0;
-}
-.projectsDetails p{
-    position: absolute;
-}
+
+/*#Projects{*/
+/*    position: relative;*/
+/*}*/
+/*#Projects>div{*/
+/*    position: relative;*/
+/*    top: 10vh;*/
+/*    display: grid;*/
+/*    width: 50vw;*/
+/*    height: 80vh;*/
+/*    grid-template-columns: repeat(2, 1fr);*/
+/*}*/
+/*#Projects>div>div{*/
+/*    position: relative;*/
+/*    height: fit-content;*/
+/*}*/
+/*#Projects>div:first-child{*/
+/*    grid-column: 1/2;*/
+/*}*/
+/*#Projects>div:nth-child(2){*/
+/*    grid-column: 2/3;*/
+/*}*/
+
+/*#Projects>div:hover{*/
+/*    background-color: mediumpurple;*/
+/*}*/
+/*.projectsOImage{*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    height: 30vh;*/
+/*    width: 20vw;*/
+/*}*/
+/*.projectsNames{*/
+/*    position: relative;*/
+/*    background-color: #2E0042;*/
+/*    text-align: center;*/
+/*    color: #F1A7D3;*/
+/*}*/
+/*.projectsDetails{*/
+/*    position: relative;*/
+/*    top: 80vh;*/
+/*    left: 0;*/
+/*}*/
+/*.projectsDetails p{*/
+/*    position: absolute;*/
+/*}*/
 
 
 
@@ -455,10 +457,6 @@ body>main{
 
 }
 
-
-
-
-
 /*      Skill        */
 .MainSections:nth-child(5){
     background-color: #3C1E60;
@@ -598,10 +596,6 @@ body>main{
     margin: auto;
     color: #F2E2F7;
 }
-
-
-
-
 
 
 /*      Contact        */
