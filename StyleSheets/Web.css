@@ -464,6 +464,145 @@ body>main{
     background-color: #3C1E60;
 }
 
+#Skill>div{
+    position: relative;
+}
+.skillLine>div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1vh;
+    width: 80vw;
+    background-color: #F2E2F7;
+}
+#Skill>div:first-child{
+    height: 5vh;
+}
+#Skill>div:nth-child(2){
+    height: 20vh;
+}
+#Skill>div:nth-child(3){
+    height: 70vh;
+}
+#Skill>div:nth-child(4){
+    height: 5vh;
+}
+#skillTitle>span{
+    height: 6vh;
+    width: 15vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-family: "Noto NotoSans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    background-color: #D6A9F6;
+    border-radius: 30px;
+}
+#skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skillsNames{
+    height: 65vh;
+    width: 23vw;
+}
+.skillBetweenLine{
+    background-color: #E1B1D6;
+    height: 65vh;
+    width: 5px;
+}
+.skillCircle{
+    height: 20vh;
+    position: relative;
+    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+
+}
+.skillCircle>div{
+    height: 15vh;
+    aspect-ratio: 1/1;
+    background-color: #9D53A5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 5px solid purple;
+}
+.skillCircle>div>span{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: black;
+    font-size: 30px;
+}
+.skillNamesLIne{
+    height: 30vh;
+    position: relative;
+    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+}
+.skillNamesLIne>div{
+    height: 30vh;
+    width: 7px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100px;
+}
+.skillTotal{
+    height: 15vh;
+    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+    position: relative;
+}
+.skillTotal>div{
+    height: 10vh;
+    width: 15vw;
+    background-color: #8B5FB1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 30px;
+}
+.skillTotal>div>span{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #F2E2F7;
+}
+
+
+
+
+
 
 /*      Contact        */
 .MainSections:nth-child(6){
