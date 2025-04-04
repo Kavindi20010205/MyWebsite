@@ -194,17 +194,117 @@ body>main{
 
 /*      Projects        */
 .MainSections:nth-child(2){
-    height: 200vh;
     background-color: #9D53A5;
 }
+ .MainSections{
+     position: relative;
+     height: 100vh;
+     width: 100%;
+ }
+#Projects{
+    background-color: #9D53A5;
+}
+
 #projectTitle{
-    color: #F1A7D3;
+    height: 5vh;
+    margin: 0;
+    padding: 20px;
+    background-color: pink;
     text-align: center;
-    position: relative;
-    top: 5vh;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#projectsDetails{
+    background-color: orange;
+    width: 100vw;
+    position: absolute;
+}
+.projectsCollection{
+    width: 40vw;
+    height: fit-content;
+    position: absolute;
+    margin: 50px;
+    background-color: #F2E2F7;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px 5px 5px;
 
 }
+.projectsCollection:hover{
+    background-color: #D6A9F6;
+}
+.projectsCollection:first-child{
+    left: 0;
+}
+.projectsCollection:nth-child(2){
+    right: 0;
+}
+.projectsCollection>div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.projectsNames{
+    text-align: center;
+    background-color: #2E0042;
+    color: #F2E2F7;
+}
+.projectsOImage{
+    position: relative;
+    height: 50vh;
+}
+.projectsDetails{
+    width: 40vw;
+}
+.projectsDetails>p{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.projectLink{
+    background-color: #F1A7D3;
+}
+.projectLink>h5{
+    position: relative;
+}
+.assignmetCodename{
+    background-color: pink;
+    padding: 10px;
+    border: 3px solid deeppink;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.assignmetCodename:hover{
+    background-color: #E1B1D6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*#Projects{*/
 /*    position: relative;*/
@@ -514,6 +614,10 @@ body>main{
 .skillsNames{
     height: 65vh;
     width: 23vw;
+    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+}
+.skillsNames:hover{
+    background: linear-gradient(to right,#3C1E60,#8B5FB1,#3C1E60,#8B5FB1,#3C1E60);
 }
 .skillBetweenLine{
     background-color: #E1B1D6;
@@ -523,7 +627,7 @@ body>main{
 .skillCircle{
     height: 20vh;
     position: relative;
-    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+    /*background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);*/
 
 }
 .skillCircle>div{
@@ -554,7 +658,7 @@ body>main{
 .skillNamesLIne{
     height: 30vh;
     position: relative;
-    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+    /*background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);*/
 }
 .skillNamesLIne>div{
     height: 30vh;
@@ -570,9 +674,10 @@ body>main{
 }
 .skillTotal{
     height: 15vh;
-    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);
+    /*background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);*/
     position: relative;
 }
+
 .skillTotal>div{
     height: 10vh;
     width: 15vw;
@@ -596,6 +701,14 @@ body>main{
     margin: auto;
     color: #F2E2F7;
 }
+/*.skillsNames>div{*/
+/*    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6,#F1A7D3,#3C1E60);*/
+/*}*/
+/*.skillsNames>div:hover{*/
+/*    background: linear-gradient(to right,#3C1E60,#8B5FB1,#F1A7D3,#D6A9F6);*/
+/*}*/
+
+
 
 
 /*      Contact        */
